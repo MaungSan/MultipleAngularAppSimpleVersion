@@ -1,0 +1,45 @@
+<html>
+
+<head>
+    <script>
+        var angularVersions = {};
+    </script>
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="styles.css">
+    <script src="bower_components/jquery/dist/jquery.js"></script>
+
+    <script src=" https://code.angularjs.org/1.5.1/angular.js"></script>
+    <script>
+        angularVersions[angular.version.full] = angular;
+         angular = null;
+    </script>
+
+    <script src="ps-movies/onePointFivemodule.js"></script>
+    <script src=" https://code.angularjs.org/1.3.1/angular.js"></script>
+    <script>
+        angularVersions[angular.version.full] = angular;
+ 
+    </script>
+     <script src="ps-movies/onePointThreemodule.js"></script>
+    <!--<script src="ps-movies/movie-rating.directive.js"></script>     -->
+
+</head>
+
+<body name="psOlderAngular">
+    <div class="container" name="psMovies">
+        <nav class="navbar navbar-default navbar-inverse" class="container-fluid">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="#">At The Movies</a>
+                </div>
+            </div>
+        </nav>
+        <movie-list></movie-list>
+
+    </div>
+
+
+
+</body>
+
+</html>

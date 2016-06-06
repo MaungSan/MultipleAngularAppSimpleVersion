@@ -1,0 +1,12 @@
+{
+   "directory": "bower_components",
+	"registry": {
+	  "register": "https://bower.herokuapp.com",
+	  "search": [
+		"http://<domain>/artifactory/api/bower/<bower-repo>"
+	  ]
+	},
+	"resolvers": [
+	  "bower-art-resolver"
+	]
+}
